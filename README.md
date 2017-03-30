@@ -34,7 +34,7 @@ Sign-in Method tab and enable Email/Password )
     * Asked about single page app and to rewrite  all urls to index.html, answer with No
     * When asked to overwrite index.html, say No.
     * Now you have to deploy your web app in firebase with the command: firebase deploy
-    * After your web site has been deployed successfully, a Hosting URL will be displayed. Copy this URL and set it in DAL_Utilities.KompassURL and the Android project, after you have cloned it in step II. 
+    * After your web site has been deployed successfully, a Hosting URL will be displayed. Copy this URL and set it in DAL_Utilities.KompassURL and the Android project, after you have cloned it in step II. (pay attention that the URL has to have a slash at the end of the address "https://FIREBASE_ADDRESS/")
   
 
   
