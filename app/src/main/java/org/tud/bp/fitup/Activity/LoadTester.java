@@ -134,8 +134,9 @@ public class LoadTester {
 
         int THREAD_NUMBER = 100;
         //TestRead();
-      //  deleteUsers(THREAD_NUMBER);
+        deleteUsers(THREAD_NUMBER);
 
+/*
         for (int i = 0; i < THREAD_NUMBER; i++)
         {
             final int counter = i;
@@ -151,6 +152,7 @@ public class LoadTester {
                 }
             }).start();
         }
+*/
 
     }
 
