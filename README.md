@@ -10,7 +10,7 @@ The app uses the webapp "Kompass", which is available through this repository <h
 ### How do I get set up? ###
 The setup is done in two main steps:  
 I. Setup of the Kompass web app: 
-  * You need a seperate project(which can be on the same firebase account) for the Kompass web app.
+  * You need a seperate project(which can be on the same firebase account) for the Kompass web app. So first create a seperate project by going to https://console.firebase.google.com/.
   * Change the security rules of the the database to public
   * To create the database, two shell script files are located in Kompass_Shell_Script.zip
   * Replace the used URL in the two files with the URL of your database in that firebase account
