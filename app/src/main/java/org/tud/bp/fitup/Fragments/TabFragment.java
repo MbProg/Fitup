@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Fragments;
+package org.tud.bp.fitup.Fragments;
 
 
 import android.app.Activity;

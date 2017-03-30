@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 /* Test
 
@@ -32,12 +32,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.NewChallengeViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.Challenge;
-import com.tud.bp.fitup.BusinessLayer.User;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Challenges;
-import com.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.NewChallengeViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.Challenge;
+import org.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Challenges;
+import org.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 
 import java.text.SimpleDateFormat;

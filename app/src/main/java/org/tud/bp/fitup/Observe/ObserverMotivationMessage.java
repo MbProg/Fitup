@@ -1,11 +1,11 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.tud.bp.fitup.Activity.ActivityMotivationMessage;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityMotivationMessage;
+import org.tud.bp.fitup.R;
 
 import java.util.Calendar;
 import java.util.Random;
@@ -33,7 +33,7 @@ public class ObserverMotivationMessage extends Observer {
             timeOutCounter--;
         } else {
             if (!getNextTrainingTimeString(context).equals("")
-                    && Observer.timeTillTraining(getNextTrainingTimeString(context)) == 5) {
+                    && timeTillTraining(getNextTrainingTimeString(context)) == 5) {
                 if (checkIntensifier()) {
                     sendNotification(
                             context,

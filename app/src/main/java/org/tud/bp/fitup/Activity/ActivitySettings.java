@@ -1,11 +1,11 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.R;
 
 /**
  * Created by M.Braei on 15.01.2017.

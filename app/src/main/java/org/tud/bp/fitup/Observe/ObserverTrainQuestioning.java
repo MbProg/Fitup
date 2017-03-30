@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -10,9 +10,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 
-import com.tud.bp.fitup.Activity.ActivityMain;
-import com.tud.bp.fitup.Activity.ActivityTrainQuestioning;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityMain;
+import org.tud.bp.fitup.Activity.ActivityTrainQuestioning;
+import org.tud.bp.fitup.R;
 
 /**
  * observer for questioning, whether the user trained or not
@@ -32,7 +32,7 @@ public class ObserverTrainQuestioning extends Observer {
         } else {
             // check if time to notify is due
             if (!getLastTrainingTimeString(context).equals("")
-                    && Observer.timeTillTraining(getLastTrainingTimeString(context)) == -59) {
+                    && timeTillTraining(getLastTrainingTimeString(context)) == -59) {
                 sendNotification(
                         context,
                         "Trainingsabfrage",

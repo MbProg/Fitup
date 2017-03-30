@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:892175710582:android:b0c3a808210e7da7",
         "android_client_info": {
-          "package_name": "com.example.mb7.sportappbp"
+          "package_name": "org.tud.bp.fitup"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "892175710582-ivkt613etnltnhg535jvh1bjaspbimfj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.mb7.sportappbp",
+            "package_name": "org.tud.bp.fitup",
             "certificate_hash": "122723037E2C3FCBF2F4E16B11068DDCB5C93151"
           }
         },

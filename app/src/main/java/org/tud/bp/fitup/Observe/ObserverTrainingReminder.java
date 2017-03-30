@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 
 import android.Manifest;
@@ -21,9 +21,9 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 
-import com.tud.bp.fitup.Activity.ActivityMain;
-import com.tud.bp.fitup.Activity.ActivityTrainQuestioning;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityMain;
+import org.tud.bp.fitup.Activity.ActivityTrainQuestioning;
+import org.tud.bp.fitup.R;
 
 import java.io.IOException;
 import java.util.List;
@@ -108,7 +108,7 @@ public class ObserverTrainingReminder extends Observer {
                                 context.getString(R.string.trNotiTitle),
                                 context.getString(R.string.trNotiSmallTitle1)
                                         + " " +
-                                        Observer.timeTillTraining(getNextTrainingTimeString(context))
+                                        timeTillTraining(getNextTrainingTimeString(context))
                                         + " " + context.getString(R.string.trNotiSmallTitle2),
                                 R.mipmap.ic_tagebuch_eintrag);
                     }
@@ -319,7 +319,7 @@ public class ObserverTrainingReminder extends Observer {
 
         // time needed to get to the studio
         int timeNeeded = getTimeToStudio();
-        int timeTillTraining = Observer.timeTillTraining(trainingStartTime);
+        int timeTillTraining = timeTillTraining(trainingStartTime);
 
         // check if one could wait another period before user has to go
         return timeTillTraining > 1 && timeTillTraining <= timeNeeded;

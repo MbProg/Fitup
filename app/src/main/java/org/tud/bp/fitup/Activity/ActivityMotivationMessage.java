@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

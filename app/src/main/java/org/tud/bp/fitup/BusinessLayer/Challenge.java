@@ -1,8 +1,8 @@
-package com.tud.bp.fitup.BusinessLayer;
+package org.tud.bp.fitup.BusinessLayer;
 
-import com.tud.bp.fitup.Comparator.UserSortPoints;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Challenges;
-import com.tud.bp.fitup.DataAccessLayer.DAL_User;
+import org.tud.bp.fitup.Comparator.UserSortPoints;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Challenges;
+import org.tud.bp.fitup.DataAccessLayer.DAL_User;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

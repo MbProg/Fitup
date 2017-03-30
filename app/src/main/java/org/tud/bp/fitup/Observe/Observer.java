@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -10,8 +10,8 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
 import com.firebase.client.Firebase;
 
 import java.io.Serializable;

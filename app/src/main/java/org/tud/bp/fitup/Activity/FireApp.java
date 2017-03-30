@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.Application;
 

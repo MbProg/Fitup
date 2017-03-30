@@ -36,8 +36,8 @@
         android:summary="@string/wann_und_wo_findet_training_statt">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.example.mb7.sportappbp"
-            android:targetClass="com.example.mb7.sportappbp.Activity.ActivitySettingInitializer" />
+            android:targetPackage="org.tud.bp.fitup"
+            android:targetClass="org.tud.bp.fitup.Activity.ActivitySettingInitializer" />
         </Preference>
     </PreferenceCategory>
 
@@ -50,8 +50,8 @@
             android:summary="Zum Bearbeiten deiner Angaben im Kompass">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:targetPackage="com.example.mb7.sportappbp"
-                android:targetClass="com.example.mb7.sportappbp.Activity.ActivityKompass" />
+                android:targetPackage="org.tud.bp.fitup"
+                android:targetClass="org.tud.bp.fitup.Activity.ActivityKompass" />
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory
@@ -62,8 +62,8 @@
             android:key="pref_key_storage_settings"
             >
             <intent android:action="android.intent.action.VIEW"
-                android:targetPackage="com.example.mb7.sportappbp"
-                android:targetClass="com.example.mb7.sportappbp.Activity.ActivityAbout"
+                android:targetPackage="org.tud.bp.fitup"
+                android:targetClass="org.tud.bp.fitup.Activity.ActivityAbout"
                 />
 
         </Preference>

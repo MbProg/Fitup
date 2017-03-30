@@ -1,12 +1,12 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

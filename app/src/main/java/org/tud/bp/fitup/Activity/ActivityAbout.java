@@ -1,10 +1,10 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.R;
 
 public class ActivityAbout extends AppCompatActivity {
 

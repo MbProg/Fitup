@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 /**
  * Created by M.Braei on 24.03.2017.

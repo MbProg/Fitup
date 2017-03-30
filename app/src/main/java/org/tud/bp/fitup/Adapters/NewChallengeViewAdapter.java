@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Adapters;
+package org.tud.bp.fitup.Adapters;
 
 import android.app.Activity;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.BusinessLayer.User;
 
 import java.util.ArrayList;
 

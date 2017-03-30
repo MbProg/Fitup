@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.BusinessLayer;
+package org.tud.bp.fitup.BusinessLayer;
 
 /**
  * Created by Felix on 24.03.2017.

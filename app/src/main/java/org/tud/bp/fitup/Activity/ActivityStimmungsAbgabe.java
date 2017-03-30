@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,12 +13,12 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.StimmungsViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.StimmungAbfrageScore;
-import com.tud.bp.fitup.BusinessLayer.StimmungsAngabe;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
-import com.tud.bp.fitup.UI_Controls.StimmungListview;
+import org.tud.bp.fitup.Adapters.StimmungsViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.StimmungAbfrageScore;
+import org.tud.bp.fitup.BusinessLayer.StimmungsAngabe;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
+import org.tud.bp.fitup.UI_Controls.StimmungListview;
 import com.firebase.client.Firebase;
 
 import java.security.InvalidParameterException;
@@ -312,6 +312,8 @@ public class ActivityStimmungsAbgabe extends AppCompatActivity {
                 return 1;
             case 0:
                 return 0;
+            case -1:
+                return -1;
             default:
                 throw new InvalidParameterException("stimmungsbarometerPositiv: The index is undefined");
         }
@@ -329,6 +331,8 @@ public class ActivityStimmungsAbgabe extends AppCompatActivity {
                 return 3;
             case 0:
                 return 4;
+            case -1:
+                return -1;
             default:
                 throw new InvalidParameterException("stimmungsbarometerNegativ: The index is undefined");
         }

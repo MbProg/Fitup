@@ -8,7 +8,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "25.0.1"
     defaultConfig {
-        applicationId "com.example.mb7.sportappbp"
+        applicationId "org.tud.bp.fitup"
         minSdkVersion 21
         targetSdkVersion 24
         versionCode 1

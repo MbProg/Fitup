@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.view.MenuItem;
 import android.widget.GridView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.DiaryEntryViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.DiaryEntry;
-import com.tud.bp.fitup.BusinessLayer.Exercise;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.DiaryEntryViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.DiaryEntry;
+import org.tud.bp.fitup.BusinessLayer.Exercise;
+import org.tud.bp.fitup.R;
 import com.firebase.client.Firebase;
 
 import java.security.InvalidParameterException;

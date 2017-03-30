@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Fragments;
+package org.tud.bp.fitup.Fragments;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.widget.TimePicker;
 
-import com.tud.bp.fitup.Activity.ActivitySettingInitializer;
+import org.tud.bp.fitup.Activity.ActivitySettingInitializer;
 
 /**
  * Fragment to show a time picker

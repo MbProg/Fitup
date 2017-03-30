@@ -50,7 +50,7 @@
                 android:fontFamily="casual"
                 />
 
-            <com.example.mb7.sportappbp.UI_Controls.FragebogenListview
+            <org.tud.bp.fitup.UI_Controls.FragebogenListview
                 android:id="@+id/lvberufstätig"
                 android:layout_width="match_parent"
                 android:divider="#00279a"
@@ -85,7 +85,7 @@
                 android:textStyle="normal|bold"
                 android:textSize="18sp"/>
 
-            <com.example.mb7.sportappbp.UI_Controls.FragebogenListview
+            <org.tud.bp.fitup.UI_Controls.FragebogenListview
                 android:id="@+id/lvsitzendetätigkeiten"
                 android:layout_width="match_parent"
                 android:divider="#00279a"
@@ -113,7 +113,7 @@
                 android:textStyle="normal|bold"
                 android:textSize="18sp"/>
 
-            <com.example.mb7.sportappbp.UI_Controls.FragebogenListview
+            <org.tud.bp.fitup.UI_Controls.FragebogenListview
                 android:id="@+id/lvmäßigebewegung"
                 android:layout_width="match_parent"
                 android:divider="#00279a"
@@ -141,7 +141,7 @@
                 android:textStyle="normal|bold"
                 android:textSize="18sp"/>
 
-            <com.example.mb7.sportappbp.UI_Controls.FragebogenListview
+            <org.tud.bp.fitup.UI_Controls.FragebogenListview
                 android:id="@+id/lvintensivebewegung"
                 android:layout_width="match_parent"
                 android:divider="#00279a"
@@ -712,7 +712,7 @@
                 android:textSize="16sp"
                 android:fontFamily="casual"/>
 
-            <com.example.mb7.sportappbp.UI_Controls.FragebogenListview
+            <org.tud.bp.fitup.UI_Controls.FragebogenListview
                 android:id="@+id/lvsportlichaktiv"
                 android:layout_width="match_parent"
                 android:divider="#00279a"

@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
 
 public class ActivityKompass extends AppCompatActivity {
     private WebView webViewkompass;

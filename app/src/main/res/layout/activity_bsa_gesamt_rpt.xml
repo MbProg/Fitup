@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.Activity_bsa_gesamt_rpt"><RelativeLayout
+    tools:context="org.tud.bp.fitup.Activity.Activity_bsa_gesamt_rpt"><RelativeLayout
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"

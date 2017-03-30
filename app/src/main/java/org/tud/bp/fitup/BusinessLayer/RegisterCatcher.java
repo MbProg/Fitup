@@ -1,6 +1,6 @@
-package com.tud.bp.fitup.BusinessLayer;
+package org.tud.bp.fitup.BusinessLayer;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
+import org.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
 import com.firebase.client.DataSnapshot;
 
 import java.util.Iterator;

@@ -1,10 +1,10 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
 
-import com.tud.bp.fitup.Activity.ActivityFitnessFragebogen;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityFitnessFragebogen;
+import org.tud.bp.fitup.R;
 
 /**
  * Created by Felix on 25.03.2017.

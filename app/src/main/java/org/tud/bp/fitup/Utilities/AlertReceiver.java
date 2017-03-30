@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Utilities;
+package org.tud.bp.fitup.Utilities;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -6,17 +6,17 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.Observe.ObserverBsaFragebogen;
-import com.tud.bp.fitup.Observe.ObserverChallengeInvitation;
-import com.tud.bp.fitup.Observe.ObserverChallengeWinner;
-import com.tud.bp.fitup.Observe.ObserverFitnessFragebogen;
-import com.tud.bp.fitup.Observe.ObserverMotivationMessage;
-import com.tud.bp.fitup.Observe.ObserverStimmungAngabe;
-import com.tud.bp.fitup.Observe.ObserverStudioNotification;
-import com.tud.bp.fitup.Observe.ObserverStudioSetRemoveNotification;
-import com.tud.bp.fitup.Observe.ObserverTrainQuestioning;
-import com.tud.bp.fitup.Observe.ObserverTrainingReminder;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.Observe.ObserverBsaFragebogen;
+import org.tud.bp.fitup.Observe.ObserverChallengeInvitation;
+import org.tud.bp.fitup.Observe.ObserverChallengeWinner;
+import org.tud.bp.fitup.Observe.ObserverFitnessFragebogen;
+import org.tud.bp.fitup.Observe.ObserverMotivationMessage;
+import org.tud.bp.fitup.Observe.ObserverStimmungAngabe;
+import org.tud.bp.fitup.Observe.ObserverStudioNotification;
+import org.tud.bp.fitup.Observe.ObserverStudioSetRemoveNotification;
+import org.tud.bp.fitup.Observe.ObserverTrainQuestioning;
+import org.tud.bp.fitup.Observe.ObserverTrainingReminder;
 import com.firebase.client.Firebase;
 
 import java.util.Date;

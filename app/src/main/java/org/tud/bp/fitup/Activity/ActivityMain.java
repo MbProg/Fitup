@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.Manifest;
 import android.app.Activity;
@@ -26,21 +26,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_Allocation;
-import com.tud.bp.fitup.R;
-import com.tud.bp.fitup.Fragments.TabFragment;
-import com.tud.bp.fitup.Fragments.TbNotificationContent;
-import com.tud.bp.fitup.Fragments.TbReportContent;
-import com.tud.bp.fitup.Fragments.TbTaskCategContent;
-import com.tud.bp.fitup.BusinessLayer.User;
-import com.tud.bp.fitup.Utilities.AlertReceiver;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Allocation;
+import org.tud.bp.fitup.R;
+import org.tud.bp.fitup.Fragments.TabFragment;
+import org.tud.bp.fitup.Fragments.TbNotificationContent;
+import org.tud.bp.fitup.Fragments.TbReportContent;
+import org.tud.bp.fitup.Fragments.TbTaskCategContent;
+import org.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.Utilities.AlertReceiver;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-import static com.tud.bp.fitup.R.id.container;
+import static org.tud.bp.fitup.R.id.container;
 
 public class ActivityMain extends AppCompatActivity {
 

@@ -1,10 +1,10 @@
-package com.tud.bp.fitup.BusinessLayer;
+package org.tud.bp.fitup.BusinessLayer;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_User;
+import org.tud.bp.fitup.DataAccessLayer.DAL_User;
 import com.firebase.client.DataSnapshot;
 
 import java.util.Calendar;

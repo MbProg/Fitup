@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -17,13 +17,13 @@ import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.ExerciseViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.Exercise;
-import com.tud.bp.fitup.BusinessLayer.LeistungstestsExercise;
-import com.tud.bp.fitup.BusinessLayer.ReinerAufenthaltExercise;
-import com.tud.bp.fitup.BusinessLayer.TrainingExercise;
-import com.tud.bp.fitup.BusinessLayer.WellnessExercise;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.ExerciseViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.Exercise;
+import org.tud.bp.fitup.BusinessLayer.LeistungstestsExercise;
+import org.tud.bp.fitup.BusinessLayer.ReinerAufenthaltExercise;
+import org.tud.bp.fitup.BusinessLayer.TrainingExercise;
+import org.tud.bp.fitup.BusinessLayer.WellnessExercise;
+import org.tud.bp.fitup.R;
 
 import java.security.InvalidParameterException;
 import java.util.ArrayList;

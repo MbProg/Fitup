@@ -1,11 +1,11 @@
-package com.tud.bp.fitup.DataAccessLayer;
+package org.tud.bp.fitup.DataAccessLayer;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.tud.bp.fitup.BusinessLayer.MethodChooser;
+import org.tud.bp.fitup.BusinessLayer.MethodChooser;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

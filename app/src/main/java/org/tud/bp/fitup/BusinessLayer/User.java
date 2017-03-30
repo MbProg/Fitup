@@ -1,11 +1,11 @@
-package com.tud.bp.fitup.BusinessLayer;
+package org.tud.bp.fitup.BusinessLayer;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
-import com.tud.bp.fitup.DataAccessLayer.DAL_User;
+import org.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
+import org.tud.bp.fitup.DataAccessLayer.DAL_User;
 
 /**
  * Created by M.Braei, Y.Aziani, Felix, Basti on 31.01.2017.

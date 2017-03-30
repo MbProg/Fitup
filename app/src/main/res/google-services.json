@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:892175710582:android:b0c3a808210e7da7",
         "android_client_info": {
-          "package_name": "com.example.mb7.sportappbp"
+          "package_name": "org.tud.bp.fitup"
         }
       },
       "oauth_client": [

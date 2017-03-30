@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -6,7 +6,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.github.mikephil.charting.charts.LineChart;
 ;

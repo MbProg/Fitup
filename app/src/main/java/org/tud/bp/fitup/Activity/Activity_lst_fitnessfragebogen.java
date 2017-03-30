@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -14,10 +14,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.FitnessFrageViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.FitnessFrageViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

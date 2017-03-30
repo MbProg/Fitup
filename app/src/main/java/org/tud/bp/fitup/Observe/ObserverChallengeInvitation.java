@@ -1,13 +1,13 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
 
-import com.tud.bp.fitup.Activity.ActivityChallenge;
-import com.tud.bp.fitup.Activity.ActivityMain;
-import com.tud.bp.fitup.BusinessLayer.Challenge;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityChallenge;
+import org.tud.bp.fitup.Activity.ActivityMain;
+import org.tud.bp.fitup.BusinessLayer.Challenge;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

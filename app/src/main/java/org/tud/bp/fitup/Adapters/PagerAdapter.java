@@ -1,13 +1,13 @@
-package com.tud.bp.fitup.Adapters;
+package org.tud.bp.fitup.Adapters;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.tud.bp.fitup.Fragments.TbNotificationContent;
-import com.tud.bp.fitup.Fragments.TbReportContent;
-import com.tud.bp.fitup.Fragments.TbTaskCategContent;
+import org.tud.bp.fitup.Fragments.TbNotificationContent;
+import org.tud.bp.fitup.Fragments.TbReportContent;
+import org.tud.bp.fitup.Fragments.TbTaskCategContent;
 
 import java.util.ArrayList;
 

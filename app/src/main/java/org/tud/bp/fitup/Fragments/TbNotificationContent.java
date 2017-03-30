@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Fragments;
+package org.tud.bp.fitup.Fragments;
 
 import android.app.NotificationManager;
 import android.app.ProgressDialog;
@@ -12,12 +12,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.tud.bp.fitup.Activity.ActivityMain;
-import com.tud.bp.fitup.Adapters.NotificationAdapter;
-import com.tud.bp.fitup.BusinessLayer.Notification;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.Observe.Observer;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityMain;
+import org.tud.bp.fitup.Adapters.NotificationAdapter;
+import org.tud.bp.fitup.BusinessLayer.Notification;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.Observe.Observer;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

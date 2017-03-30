@@ -1,6 +1,6 @@
-package com.tud.bp.fitup.Comparator;
+package org.tud.bp.fitup.Comparator;
 
-import com.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.BusinessLayer.User;
 
 import java.util.Comparator;
 

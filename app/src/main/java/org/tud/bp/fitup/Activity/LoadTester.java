@@ -1,12 +1,12 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.util.Log;
 
-import com.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
-import com.tud.bp.fitup.BusinessLayer.User;
-import com.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
-import com.tud.bp.fitup.DataAccessLayer.DAL_User;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
+import org.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
+import org.tud.bp.fitup.DataAccessLayer.DAL_User;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

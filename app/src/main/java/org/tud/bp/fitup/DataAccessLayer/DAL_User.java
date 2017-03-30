@@ -1,14 +1,14 @@
-package com.tud.bp.fitup.DataAccessLayer;
+package org.tud.bp.fitup.DataAccessLayer;
 
 
-import com.tud.bp.fitup.BusinessLayer.Challenge;
-import com.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
-import com.tud.bp.fitup.BusinessLayer.Fragebogen;
-import com.tud.bp.fitup.BusinessLayer.StimmungsAngabe;
-import com.tud.bp.fitup.BusinessLayer.StimmungAbfrageScore;
-import com.tud.bp.fitup.BusinessLayer.User;
-import com.tud.bp.fitup.BusinessLayer.DiaryEntry;
-import com.tud.bp.fitup.BusinessLayer.Exercise;
+import org.tud.bp.fitup.BusinessLayer.Challenge;
+import org.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
+import org.tud.bp.fitup.BusinessLayer.Fragebogen;
+import org.tud.bp.fitup.BusinessLayer.StimmungsAngabe;
+import org.tud.bp.fitup.BusinessLayer.StimmungAbfrageScore;
+import org.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.BusinessLayer.DiaryEntry;
+import org.tud.bp.fitup.BusinessLayer.Exercise;
 import com.firebase.client.Firebase;
 
 import java.net.URL;

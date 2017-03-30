@@ -1,11 +1,11 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.tud.bp.fitup.Activity.ActivityStimmungsAbgabe;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityStimmungsAbgabe;
+import org.tud.bp.fitup.R;
 
 import java.util.Calendar;
 import java.util.Date;

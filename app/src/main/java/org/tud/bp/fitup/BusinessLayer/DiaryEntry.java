@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.BusinessLayer;
+package org.tud.bp.fitup.BusinessLayer;
 
 import java.io.Serializable;
 import java.util.ArrayList;

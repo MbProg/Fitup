@@ -1,6 +1,6 @@
-package com.tud.bp.fitup.Objects;
+package org.tud.bp.fitup.Objects;
 
-import com.tud.bp.fitup.BusinessLayer.DiaryEntry;
+import org.tud.bp.fitup.BusinessLayer.DiaryEntry;
 
 import java.util.ArrayList;
 

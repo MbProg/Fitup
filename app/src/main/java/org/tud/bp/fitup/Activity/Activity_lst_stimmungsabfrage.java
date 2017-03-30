@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -16,10 +16,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.StimmungsAngabeViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.StimmungsAngabe;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.StimmungsAngabeViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.StimmungsAngabe;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

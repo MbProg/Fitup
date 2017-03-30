@@ -1,6 +1,4 @@
-package com.example.mb7.sportappbp.BusinessLayer;
-
-import java.util.Date;
+package org.tud.bp.fitup.BusinessLayer;
 
 /**
  * Created by M.Braei on 25.03.2017.

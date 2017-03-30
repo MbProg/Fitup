@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Adapters;
+package org.tud.bp.fitup.Adapters;
 
 import android.content.Intent;
 import android.preference.PreferenceManager;
@@ -11,17 +11,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Activity.ActivityDiaryEntry;
-import com.tud.bp.fitup.Activity.ActivityFitnessFragebogen;
-import com.tud.bp.fitup.Activity.ActivityFragebogen;
-import com.tud.bp.fitup.Activity.ActivityMotivationMessage;
-import com.tud.bp.fitup.Activity.ActivityStimmungsAbgabe;
-import com.tud.bp.fitup.Activity.Activity_lst_Challenge;
-import com.tud.bp.fitup.BusinessLayer.Notification;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.Fragments.TabFragment;
-import com.tud.bp.fitup.Observe.Observer;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityDiaryEntry;
+import org.tud.bp.fitup.Activity.ActivityFitnessFragebogen;
+import org.tud.bp.fitup.Activity.ActivityFragebogen;
+import org.tud.bp.fitup.Activity.ActivityMotivationMessage;
+import org.tud.bp.fitup.Activity.ActivityStimmungsAbgabe;
+import org.tud.bp.fitup.Activity.Activity_lst_Challenge;
+import org.tud.bp.fitup.BusinessLayer.Notification;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.Fragments.TabFragment;
+import org.tud.bp.fitup.Observe.Observer;
+import org.tud.bp.fitup.R;
 
 import java.security.InvalidParameterException;
 import java.util.List;

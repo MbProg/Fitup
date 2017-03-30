@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.NotificationManager;
 import android.content.Context;
@@ -19,8 +19,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.DataAccessLayer.DAL_TrainQuestioningTexts;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.DataAccessLayer.DAL_TrainQuestioningTexts;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 
 import java.util.Calendar;

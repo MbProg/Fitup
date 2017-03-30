@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Adapters;
+package org.tud.bp.fitup.Adapters;
 
 import android.content.Intent;
 import android.support.v7.widget.CardView;
@@ -9,16 +9,16 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.tud.bp.fitup.Activity.ActivityDiary;
-import com.tud.bp.fitup.Activity.ActivityMotivationMessage;
-import com.tud.bp.fitup.Activity.ActivitySettingInitializer;
-import com.tud.bp.fitup.Activity.Activity_lst_Challenge;
-import com.tud.bp.fitup.Activity.Activity_lst_bsafragebogen;
-import com.tud.bp.fitup.Activity.Activity_lst_fitnessfragebogen;
-import com.tud.bp.fitup.Activity.Activity_lst_stimmungsabfrage;
-import com.tud.bp.fitup.BusinessLayer.TaskCategory;
-import com.tud.bp.fitup.Fragments.TabFragment;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityDiary;
+import org.tud.bp.fitup.Activity.ActivityMotivationMessage;
+import org.tud.bp.fitup.Activity.ActivitySettingInitializer;
+import org.tud.bp.fitup.Activity.Activity_lst_Challenge;
+import org.tud.bp.fitup.Activity.Activity_lst_bsafragebogen;
+import org.tud.bp.fitup.Activity.Activity_lst_fitnessfragebogen;
+import org.tud.bp.fitup.Activity.Activity_lst_stimmungsabfrage;
+import org.tud.bp.fitup.BusinessLayer.TaskCategory;
+import org.tud.bp.fitup.Fragments.TabFragment;
+import org.tud.bp.fitup.R;
 
 import java.util.List;
 

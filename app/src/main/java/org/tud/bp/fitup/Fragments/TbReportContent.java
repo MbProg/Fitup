@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Fragments;
+package org.tud.bp.fitup.Fragments;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,9 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.tud.bp.fitup.Adapters.ReportAdapter;
-import com.tud.bp.fitup.BusinessLayer.Report;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.ReportAdapter;
+import org.tud.bp.fitup.BusinessLayer.Report;
+import org.tud.bp.fitup.R;
 
 import java.util.Arrays;
 import java.util.LinkedList;

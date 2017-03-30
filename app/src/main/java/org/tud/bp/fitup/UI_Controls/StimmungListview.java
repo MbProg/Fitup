@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.UI_Controls;
+package org.tud.bp.fitup.UI_Controls;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.tud.bp.fitup.Adapters.StimmungsViewAdapter;
+import org.tud.bp.fitup.Adapters.StimmungsViewAdapter;
 
 /**
  * Created by M.Braei on 18.01.2017.

@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.BusinessLayer;
+package org.tud.bp.fitup.BusinessLayer;
 
 import android.os.Parcel;
 import android.os.Parcelable;

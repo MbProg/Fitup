@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Observe;
+package org.tud.bp.fitup.Observe;
 
 
 import android.Manifest;
@@ -14,8 +14,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.content.ContextCompat;
 
-import com.tud.bp.fitup.Activity.ActivityMain;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.Activity.ActivityMain;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

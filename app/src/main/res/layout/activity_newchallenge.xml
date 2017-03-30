@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.example.mb7.sportappbp.Activity.ActivityChallenge">
+    tools:context="org.tud.bp.fitup.Activity.ActivityChallenge">
 
     <EditText
         android:id="@+id/editTextNewChallengeName"

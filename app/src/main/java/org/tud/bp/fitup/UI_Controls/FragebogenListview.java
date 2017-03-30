@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.UI_Controls;
+package org.tud.bp.fitup.UI_Controls;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,9 +8,9 @@ import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import com.tud.bp.fitup.Adapters.FitnessFragebogenViewAdapter;
-import com.tud.bp.fitup.Adapters.FragebogenViewAdapter;
-import com.tud.bp.fitup.Adapters.FragebogenViewAdapter2;
+import org.tud.bp.fitup.Adapters.FitnessFragebogenViewAdapter;
+import org.tud.bp.fitup.Adapters.FragebogenViewAdapter;
+import org.tud.bp.fitup.Adapters.FragebogenViewAdapter2;
 
 /**
  * Created by Felix on 19.01.2017.

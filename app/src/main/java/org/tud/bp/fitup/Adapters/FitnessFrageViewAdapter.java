@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Adapters;
+package org.tud.bp.fitup.Adapters;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,9 +11,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.tud.bp.fitup.Activity.ActivityFitnessFragebogen;
-import com.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityFitnessFragebogen;
+import org.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
+import org.tud.bp.fitup.R;
+
 import java.util.List;
 
 /**

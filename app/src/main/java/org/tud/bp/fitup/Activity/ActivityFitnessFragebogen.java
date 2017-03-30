@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -15,11 +15,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.FitnessFragebogenViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
-import com.tud.bp.fitup.UI_Controls.FragebogenListview;
+import org.tud.bp.fitup.Adapters.FitnessFragebogenViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.FitnessFragebogen;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
+import org.tud.bp.fitup.UI_Controls.FragebogenListview;
 import com.firebase.client.Firebase;
 
 import java.security.InvalidParameterException;

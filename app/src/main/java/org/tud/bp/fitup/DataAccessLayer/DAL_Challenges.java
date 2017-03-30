@@ -1,9 +1,9 @@
-package com.tud.bp.fitup.DataAccessLayer;
+package org.tud.bp.fitup.DataAccessLayer;
 
-import com.tud.bp.fitup.Activity.ActivityChallenge;
-import com.tud.bp.fitup.Activity.ActivityNewChallenge;
-import com.tud.bp.fitup.BusinessLayer.Challenge;
-import com.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.Activity.ActivityChallenge;
+import org.tud.bp.fitup.Activity.ActivityNewChallenge;
+import org.tud.bp.fitup.BusinessLayer.Challenge;
+import org.tud.bp.fitup.BusinessLayer.User;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

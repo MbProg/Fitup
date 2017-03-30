@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Adapters;
+package org.tud.bp.fitup.Adapters;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,9 +11,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.tud.bp.fitup.Activity.ActivityChallenge;
-import com.tud.bp.fitup.BusinessLayer.Challenge;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.ActivityChallenge;
+import org.tud.bp.fitup.BusinessLayer.Challenge;
+import org.tud.bp.fitup.R;
 
 import java.text.SimpleDateFormat;
 import java.util.List;

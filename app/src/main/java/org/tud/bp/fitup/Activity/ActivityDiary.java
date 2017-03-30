@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -15,15 +15,15 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.DiaryViewAdapter;
-import com.tud.bp.fitup.BusinessLayer.LeistungstestsExercise;
-import com.tud.bp.fitup.BusinessLayer.ReinerAufenthaltExercise;
-import com.tud.bp.fitup.BusinessLayer.TrainingExercise;
-import com.tud.bp.fitup.BusinessLayer.WellnessExercise;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.BusinessLayer.DiaryEntry;
-import com.tud.bp.fitup.BusinessLayer.Exercise;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.DiaryViewAdapter;
+import org.tud.bp.fitup.BusinessLayer.LeistungstestsExercise;
+import org.tud.bp.fitup.BusinessLayer.ReinerAufenthaltExercise;
+import org.tud.bp.fitup.BusinessLayer.TrainingExercise;
+import org.tud.bp.fitup.BusinessLayer.WellnessExercise;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.BusinessLayer.DiaryEntry;
+import org.tud.bp.fitup.BusinessLayer.Exercise;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

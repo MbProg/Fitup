@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.DataAccessLayer;
+package org.tud.bp.fitup.DataAccessLayer;
 
 import org.junit.Assert;
 import org.junit.Test;

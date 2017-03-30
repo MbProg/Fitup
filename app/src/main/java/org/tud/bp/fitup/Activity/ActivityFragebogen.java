@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -18,12 +18,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.Adapters.FragebogenViewAdapter;
-import com.tud.bp.fitup.Adapters.FragebogenViewAdapter2;
-import com.tud.bp.fitup.BusinessLayer.Fragebogen;
-import com.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
-import com.tud.bp.fitup.R;
-import com.tud.bp.fitup.UI_Controls.FragebogenListview;
+import org.tud.bp.fitup.Adapters.FragebogenViewAdapter;
+import org.tud.bp.fitup.Adapters.FragebogenViewAdapter2;
+import org.tud.bp.fitup.BusinessLayer.Fragebogen;
+import org.tud.bp.fitup.DataAccessLayer.DAL_Utilities;
+import org.tud.bp.fitup.R;
+import org.tud.bp.fitup.UI_Controls.FragebogenListview;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

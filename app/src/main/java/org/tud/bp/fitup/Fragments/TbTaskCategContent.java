@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Fragments;
+package org.tud.bp.fitup.Fragments;
 
 import android.content.res.Resources;
 import android.graphics.Rect;
@@ -13,9 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.tud.bp.fitup.Adapters.TaskCategAdapter;
-import com.tud.bp.fitup.BusinessLayer.TaskCategory;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Adapters.TaskCategAdapter;
+import org.tud.bp.fitup.BusinessLayer.TaskCategory;
+import org.tud.bp.fitup.R;
 
 import java.util.Arrays;
 import java.util.LinkedList;

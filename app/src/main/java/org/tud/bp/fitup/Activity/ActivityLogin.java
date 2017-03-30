@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Activity;
+package org.tud.bp.fitup.Activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -25,10 +25,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tud.bp.fitup.BusinessLayer.RegisterCatcher;
-import com.tud.bp.fitup.BusinessLayer.User;
-import com.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.BusinessLayer.RegisterCatcher;
+import org.tud.bp.fitup.BusinessLayer.User;
+import org.tud.bp.fitup.DataAccessLayer.DAL_RegisteredUsers;
+import org.tud.bp.fitup.R;
 import com.firebase.client.DataSnapshot;
 
 /**

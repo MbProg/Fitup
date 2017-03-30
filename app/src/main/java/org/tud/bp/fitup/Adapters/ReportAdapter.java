@@ -1,4 +1,4 @@
-package com.tud.bp.fitup.Adapters;
+package org.tud.bp.fitup.Adapters;
 
 import android.content.Intent;
 import android.support.v7.widget.CardView;
@@ -9,17 +9,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.tud.bp.fitup.Activity.Activity_Differenz_rpt;
-import com.tud.bp.fitup.Activity.Activity_EnergieIndex_rpt;
-import com.tud.bp.fitup.Activity.Activity_FitnessFragebogen_gesamt_rpt;
-import com.tud.bp.fitup.Activity.Activity_FitnessFragebogen_rpt;
-import com.tud.bp.fitup.Activity.Activity_Stimmungsbarometer_rpt;
-import com.tud.bp.fitup.Activity.Activity_Trainings_rpt;
-import com.tud.bp.fitup.Activity.Activity_bsa_gesamt_rpt;
-import com.tud.bp.fitup.Activity.Activity_bsa_rpt;
-import com.tud.bp.fitup.BusinessLayer.Report;
-import com.tud.bp.fitup.Fragments.TabFragment;
-import com.tud.bp.fitup.R;
+import org.tud.bp.fitup.Activity.Activity_Differenz_rpt;
+import org.tud.bp.fitup.Activity.Activity_EnergieIndex_rpt;
+import org.tud.bp.fitup.Activity.Activity_FitnessFragebogen_gesamt_rpt;
+import org.tud.bp.fitup.Activity.Activity_FitnessFragebogen_rpt;
+import org.tud.bp.fitup.Activity.Activity_Stimmungsbarometer_rpt;
+import org.tud.bp.fitup.Activity.Activity_Trainings_rpt;
+import org.tud.bp.fitup.Activity.Activity_bsa_gesamt_rpt;
+import org.tud.bp.fitup.Activity.Activity_bsa_rpt;
+import org.tud.bp.fitup.BusinessLayer.Report;
+import org.tud.bp.fitup.Fragments.TabFragment;
+import org.tud.bp.fitup.R;
+
 import java.util.List;
 
 
