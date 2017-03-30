@@ -1,5 +1,5 @@
-.gradle
-.idea
+/.gradle
+/.idea
 *.iml
 gradle.properties
 /local.properties
@@ -7,4 +7,4 @@ gradle.properties
 /build
 /captures
 .externalNativeBuild
-sh.exe.stackdump
+/sh.exe.stackdump
